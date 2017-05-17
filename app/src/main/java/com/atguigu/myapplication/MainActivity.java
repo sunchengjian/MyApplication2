@@ -9,6 +9,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        sysout.out.println("hello world");
+        system.out.println("hello world");
+        for(int i=0;i<100;i++){
+            Log.e("TAG","i=="+i);   
+        }
     }
 }
